@@ -1,0 +1,363 @@
+
+*
+{
+	
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+   
+}
+
+
+/* NavBbar */
+.navbar 
+{
+	background-color: #1a1a1a !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	
+	
+}
+.navbar a
+{
+	color:#ffffff!important;
+    font-weight: 600;
+    text-transform: uppercase;
+  } 
+.navbar-nav .nav-item a:hover
+{
+	    color: #ec3237 !important
+    
+ } 
+ .navbar .navbar-brand
+ {
+ 	 display: inline-block;
+   padding: 0;
+    margin: 0;
+    font-size:18px;
+    line-height: inherit;
+    white-space: nowrap;
+ }
+  .navbar .navbar-brand span
+  {
+  	margin-top: 20px;
+  	color:#ffffff!important;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+    width: 200px;
+  }
+  .navbar-toggler
+  {
+  	background-color:#fff;
+  }
+
+.brand_logo {
+    padding: 0px 10px;
+    width: 90px;
+    max-width: 90px;
+    height: 70px;
+    float: left;
+    margin: 0;
+}
+.brand_title {
+    
+    padding: 0px 20px;
+    float: right;
+}
+/* /NavBbar */
+/* =====HERO COVER ====*/
+.cover
+{
+	background-image: url("../images/cover.jpg");
+	background-size: cover;
+
+	
+	
+}
+.cover .cover_wrap 
+{
+
+}
+.cover .cover_wrap .cover_info{
+	
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-color: rgba(236, 51, 55, 0.7);
+    color: #FFF;
+   
+}
+.cover .cover_wrap .cover_info .cover_content 
+{
+    display: table-cell;
+    vertical-align: middle !important;
+    color: #FFF;
+
+}
+.cover .cover_wrap .cover_info .cover_content .container  .cover_title
+{
+	font-weight: 700;
+    font-size: 4em;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #af2424;
+    margin-top: 150px !important;
+}
+.cover_subtitle
+{
+	padding-bottom: 40px;
+}
+.btn_inverse {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    margin-top: 100px !important;
+    text-decoration: none !important;
+}
+.btn_inverse:hover {
+    background-color:#ffffff !important;
+    color: #ec3237 ;
+}
+.btnn {
+    padding: 10px 25px ;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.cover .cover_wrap .cover_info .cover_content .container .mm
+{
+ margin: 10px 0 150px 0 !important;
+
+}
+
+/* =====/HERO COVER ====*/
+/* =====ABOUT ME =====*/
+.about_me
+{
+	margin: 50px 0 0 0px ;
+
+}
+ .h2 
+{
+	font-size: 2.5em !important;
+	font-weight: 700;
+	
+}
+ .p
+{
+	color: #bcbcbc;
+}
+i
+{
+  border:1px solid #bcbcbc;
+  color: #928585;
+  padding: 15px;
+  font-size: 20px;
+}
+
+/* =====ABOUT ME =====*/
+/* ====== My Skils  ====== */
+
+/* ====== /My Skils  ====== */
+/* =======what i do =========== */
+.whatido
+{
+	background-color: #f5f5f5;
+}
+.BRANDING 
+{
+	margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+}
+.BRANDING:hover i
+{
+ background-color: #ec3337;
+ color:#fff;
+}
+.BRANDING:hover h5
+{
+	
+  color:#ec3337;
+}
+
+/* ============/what i do =========== */
+
+/* ======DESIGN=======*/
+.DESIGN
+{
+	
+	background-image: url("../images/project-counter.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bg-cover 
+{
+	border: 1px solid #4e4e4e;
+	padding: 20px;
+}
+.bg-cover  i
+{
+	color:#ec3237;
+	border:none;
+	font-size: 30px;
+}
+.bg-cover  h2
+{
+	color: #fff;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.bg-cover  h4
+{
+	color: #ec3237;
+}
+/* ====== /DESIGN=======*/
+/* ============ my porto============== */
+
+
+.container .ull li
+{
+	display: inline-block;
+	border: 2px solid #DDD;
+	color: #08526d;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 5px;
+
+}
+.container .ull .active
+{
+	background-color: #eb1c22;
+	color: #fff;
+	border-color:#eb1c22; 
+	cursor: pointer;
+}
+.container .ull li:hover
+{
+	background-color: #eb1c22;
+	color: #fff;
+	border-color:#eb1c22; 
+	cursor: pointer;
+}
+.container-fluid
+{
+	
+	overflow: hidden;
+}
+.container-fluid .im >div
+{
+	padding: 0;
+
+}
+.container-fluid .im img
+{
+	width: 100%;
+	height: 450px;
+
+}
+.port
+{
+	border:1px solid #DDD;
+	margin-top: 30px;
+	padding-bottom: 20px ;
+}
+.port i
+{
+	border-radius: 50%;
+	background-color: #000;
+	color: #fff;
+	font-size: 15px;
+	    margin-top: -22px;
+}
+.port h5
+{
+	font-weight: bold;
+	padding-top: 5px;
+}
+.port span
+{
+	color: #9e9898;
+
+}
+/* ============ /featured============== */
+
+/*--------------------------------------------------------------
+12. Client Testimonials
+--------------------------------------------------------------*/
+.testimonial_box {
+
+    padding: 70px 0px;
+    background: transparent;
+    background: url('../images/client-testimonial.jpg') center fixed;
+    background-size: cover;
+}
+.testimonial_inner
+{
+	color: #fff;
+}
+
+.client_avtar {
+    border: 6px solid #ec3237;
+    border-radius: 50%;
+}
+.item_description {
+    color: #ffffff;
+}
+.client_name {
+    color: #ec3237;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-color: transparent;
+    background-image: none;
+    filter: none;
+}
+/*--------------------------------------------------------------
+13. Hire Me - Contact 
+--------------------------------------------------------------*/
+
+
+.contact_icon {
+    width: 25px;
+    height: 25px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+.contact_icon i {
+    color: #777777;
+    border:none;
+    padding: 1px;
+}
+.contact_details {
+    margin: 20px;
+    padding: 5px 0px;
+    padding-left: 40px;
+    color: #777777;
+}
+.link
+{
+	color:red;
+}
+.field
+{
+	margin:30px 0 20px 0;
+
+}
